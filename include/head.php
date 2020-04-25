@@ -10,7 +10,6 @@ define("DESCRIPTION", $page["description"]);
 <head>
     <base href="<?= BASE ?>" />
     <link rel="canonical" href="<?= BASE . ID ?>" />
-    <link rel="manifest" href="manifest.json" />
     <link rel="shortcut icon" href="images/icon.png" />
     <link rel="apple-touch-icon" href="images/icon.png" />
     <link rel="stylesheet" href="styles/oversized.css" />

@@ -15,8 +15,17 @@ $page = array(
     <body>
         <?php require "include/header.php"; ?>
 
-        <main>
-            <!-- TODO -->
+        <main id="main">
+            <div id="home">
+                <div id="home-background">
+                    <video data-autoplay autoplay webkit-playsinline playsinline loop muted data-object-fit="cover">
+                        <source src="https://amuseio.wpengine.com/wp-content/uploads/2019/10/Web-Final-Reel.mp4" />
+                    </video>
+                </div>
+                <div id="home-content">
+                    <h1 class="headline">Production et distribution de musique moderne.</div>
+                </div>
+            </div>
         </main>
 
         <?php require "include/footer.php"; ?>
