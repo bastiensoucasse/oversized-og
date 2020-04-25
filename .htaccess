@@ -1,5 +1,9 @@
 RewriteEngine on
 
+RewriteRule ^artists/(.*)/releases(.*)$ releases.php?id=$1/$2 [NC,L]
+RewriteRule ^artists/(.*)/videos(.*)$ videos.php?id=$1/$2 [NC,L]
+RewriteRule ^artists/(.*)$ artists.php?id=$1 [NC,L]
+
 RewriteCond %{REQUEST_FILENAME}.php -f
 RewriteRule ^([^\.]+)$ $1.php [NC,L]
 

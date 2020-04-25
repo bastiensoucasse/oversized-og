@@ -23,8 +23,12 @@ $page = array(
                     </video>
                 </div>
                 <div id="home-content">
-                    <h1 class="headline">Production et distribution de musique moderne.</div>
+                    <h1>Production et distribution de musique moderne.</div>
                 </div>
+            </div>
+            <div id="artists" class="section">
+                <h2>Découvrez nos artistes</h2>
+                <div><?php foreach ($data->artists as $artist) require "include/artist.php"; ?></div>
             </div>
         </main>
 
