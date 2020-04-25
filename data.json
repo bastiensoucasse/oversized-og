@@ -1,0 +1,165 @@
+[
+    {
+        "id": "osabat",
+        "name": "Osabat",
+        "birthday": "1999-09-29",
+        "biography": "Osabat est un musicien, producteur et rappeur français. Né le 29 septembre 1999 à Tarbes, il vit aujourd'hui à Bordeaux, en France, où il produit différents types de musique.",
+        "releases": [
+            {
+                "id": "the-journey",
+                "name": "The Journey",
+                "date": "2017-09-29",
+                "titles": [
+                    {
+                        "id": "the-ocean",
+                        "name": "The Ocean"
+                    },
+                    {
+                        "id": "dance",
+                        "name": "Dance"
+                    },
+                    {
+                        "id": "eclipse",
+                        "name": "Eclipse"
+                    },
+                    {
+                        "id": "road",
+                        "name": "Road"
+                    },
+                    {
+                        "id": "lands",
+                        "name": "Lands"
+                    },
+                    {
+                        "id": "return-to-the-ocean",
+                        "name": "Return to the Ocean"
+                    }
+                ]
+            }
+        ],
+        "recommendations": [
+            {
+                "id": "mwoon",
+                "name": "Mwoon"
+            },
+            {
+                "id": "tomega",
+                "name": "Tomega"
+            }
+        ]
+    },
+    {
+        "id": "mwoon",
+        "name": "Mwoon",
+        "birthday": "1998-09-14",
+        "biography": "Voici Mwoon.",
+        "recommendations": [
+            {
+                "id": "osabat",
+                "name": "Osabat"
+            },
+            {
+                "id": "tomega",
+                "name": "Tomega"
+            }
+        ]
+    },
+    {
+        "id": "tomega",
+        "name": "Tomega",
+        "birthday": "2000-11-18",
+        "biography": "Voici Tomega.",
+        "releases": [
+            {
+                "id": "premier-jet",
+                "name": "Premier jet",
+                "titles": [
+                    {
+                        "id": "dedicace",
+                        "name": "Dédicace"
+                    },
+                    {
+                        "id": "dans-l-ombre",
+                        "name": "Dans l'ombre"
+                    },
+                    {
+                        "id": "titre-provisoire",
+                        "name": "Titre provisoire"
+                    },
+                    {
+                        "id": "jeanne",
+                        "name": "Jeanne",
+                        "featuring": [
+                            {
+                                "id": "jmlp",
+                                "name": "JMLP"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "grosse-kalash-dans-ta-mere",
+                        "name": "Gro$$e kalash dans ta mère"
+                    },
+                    {
+                        "id": "66",
+                        "name": "66"
+                    },
+                    {
+                        "id": "kamikaze",
+                        "name": "Kamikaze"
+                    },
+                    {
+                        "id": "asylum",
+                        "name": "Asylum",
+                        "featuring": [
+                            {
+                                "id": "osabat",
+                                "name": "Osabat"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "vie-de-chien",
+                        "name": "Vie de chien"
+                    },
+                    {
+                        "id": "le-style-gratuit",
+                        "name": "Le style gratuit",
+                        "featuring": [
+                            {
+                                "id": "hippolyte-de-vermandois",
+                                "name": "Hippolyte De Vermandois"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "egotrip",
+                        "name": "Egotrip"
+                    },
+                    {
+                        "id": "mery",
+                        "name": "M.E.R.Y."
+                    },
+                    {
+                        "id": "nocturne-15-op-5-n-1-in-f-minor",
+                        "name": "Nocture 15 Op. 5 N. 1 in F minor"
+                    },
+                    {
+                        "id": "au-revoir",
+                        "name": "Au revoir"
+                    }
+                ]
+            }
+        ],
+        "recommendations": [
+            {
+                "id": "osabat",
+                "name": "Osabat"
+            },
+            {
+                "id": "mwoon",
+                "name": "Mwoon"
+            }
+        ]
+    }
+]
